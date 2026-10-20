@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlético Nacional — El Rey de Copas</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root{--verde:#0a7a3d;--oscuro:#052e18;--claro:#e9f6ee;--oro:#f2c230}
+body{background:var(--claro);color:#12281b;font-family:system-ui,Arial,sans-serif}
+.hero{background:linear-gradient(rgba(5,46,24,.82),rgba(10,122,61,.75)),repeating-linear-gradient(90deg,#fff 0 60px,var(--verde) 60px 120px);color:#fff;padding:90px 0}
+.hero h1{font-weight:800;letter-spacing:-1px;text-shadow:2px 2px 0 rgba(0,0,0,.4)}
+.badge-oro{background:var(--oro);color:#111;font-weight:700}
+.rayas{height:10px;background:repeating-linear-gradient(90deg,#fff 0 40px,var(--verde) 40px 80px)}
+.titulo{font-weight:800;color:var(--verde);border-left:8px solid var(--oscuro);padding-left:14px}
+.stat{border-radius:14px;color:#fff;padding:22px;text-align:center;height:100%;background:var(--verde)}
+.stat.d{background:var(--oscuro)}
+.stat b{display:block;font-size:2.6rem;line-height:1;color:var(--oro)}
+.tabla thead{background:var(--verde);color:#fff}
+.tabla tbody tr:nth-child(even){background:#d8eee1}
+.card-j{border:0;border-top:6px solid var(--verde);box-shadow:0 4px 14px #0002;height:100%;background:#fff}
+.card-j .tag{font-size:.75rem;font-weight:700;color:var(--verde);text-transform:uppercase;letter-spacing:.05em}
+.razon{background:#fff;border-radius:14px;padding:22px;box-shadow:0 4px 14px #0002;height:100%;border-bottom:6px solid var(--verde)}
+.razon h5{color:var(--oscuro);font-weight:700}
+.contra{background:var(--oscuro);color:#fff;border-radius:16px;border:3px solid var(--oro)}
+footer{background:var(--oscuro);color:#fff}
+</style>
+</head>
+<body>
+
+<header class="hero text-center">
+ <div class="container">
+  <span class="badge badge-oro mb-3 px-3 py-2">MEDELLÍN · FUNDADO EL 30 DE ABRIL DE 1947</span>
+  <h1 class="display-3">ATLÉTICO NACIONAL</h1>
+  <p class="lead mb-0">El Rey de Copas: el equipo más ganador de Colombia, sus trofeos y sus mejores jugadores.</p>
+ </div>
+</header>
+<div class="rayas"></div>
+
+<main class="container py-5">
+
+ <section class="mb-5">
+  <h2 class="titulo mb-4">Nacional en números</h2>
+  <div class="row g-3">
+   <div class="col-6 col-md-3"><div class="stat"><b>18</b>ligas (18 estrellas)</div></div>
+   <div class="col-6 col-md-3"><div class="stat d"><b>2</b>Copas Libertadores</div></div>
+   <div class="col-6 col-md-3"><div class="stat"><b>8</b>Copas Colombia</div></div>
+   <div class="col-6 col-md-3"><div class="stat d"><b>37</b>títulos oficiales</div></div>
+  </div>
+ </section>
+
+ <section class="mb-5">
+  <h2 class="titulo mb-4">Palmarés</h2>
+  <div class="table-responsive">
+   <table class="table tabla align-middle">
+    <thead><tr><th>Competición</th><th>Años</th><th class="text-center">Títulos</th></tr></thead>
+    <tbody>
+     <tr><td>Liga colombiana</td><td>1954, 1973, 1976, 1981, 1991, 1994, 1999, 2005-I, 2007-I, 2007-II, 2011-I, 2013-I, 2013-II, 2014-I, 2015-II, 2017-I, 2022-I, 2024-II</td><td class="text-center fw-bold">18</td></tr>
+     <tr><td>Copa Colombia</td><td>2012, 2013, 2016, 2018, 2021, 2023, 2024, 2025</td><td class="text-center fw-bold">8</td></tr>
+     <tr><td>Superliga</td><td>2012, 2016, 2023, 2025</td><td class="text-center fw-bold">4</td></tr>
+     <tr><td>Copa Libertadores</td><td>1989, 2016</td><td class="text-center fw-bold">2</td></tr>
+     <tr><td>Copa Merconorte</td><td>1998, 2000</td><td class="text-center fw-bold">2</td></tr>
+     <tr><td>Copa Interamericana</td><td>1990, 1997</td><td class="text-center fw-bold">2</td></tr>
+     <tr><td>Recopa Sudamericana</td><td>2017</td><td class="text-center fw-bold">1</td></tr>
+    </tbody>
+   </table>
+  </div>
+  <p class="small text-muted">Datos tomados de ESPN y Win Sports. Las cifras cambian con cada título.</p>
+  <div class="alert border-0 text-white" style="background:var(--verde)"><b>Momento histórico:</b> el 31 de mayo de 1989 Nacional ganó su primera Libertadores con "los puros criollos", y fue el primer equipo colombiano campeón de América. En 2016 repitió y es el único bicampeón colombiano del torneo.</div>
+ </section>
+
+ <section class="mb-5">
+  <h2 class="titulo mb-4">Los mejores jugadores de la historia verdolaga</h2>
+  <div class="row g-4">
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Arquero · Libertadores 1989</div><h5 class="card-title">René Higuita</h5><p class="card-text">"El Loco". Arquero atrevido y figura del equipo campeón de América en 1989, en una final definida por penales.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Defensa · Símbolo de juego limpio</div><h5 class="card-title">Andrés Escobar</h5><p class="card-text">"El Caballero del Fútbol". Defensa elegante e inteligente, de la gran generación de Nacional en los años 80 y 90.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Volante · Libertadores 1989</div><h5 class="card-title">Leonel Álvarez</h5><p class="card-text">Garra y recuperación en el mediocampo. Pieza clave del primer título continental.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Defensa · Libertadores 1989</div><h5 class="card-title">Luis Fernando "Chonto" Herrera</h5><p class="card-text">Defensor fuerte y con carácter, uno de los pilares del equipo de Maturana.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Delantero · Ídolo goleador</div><h5 class="card-title">Víctor Aristizábal</h5><p class="card-text">"Aristi". Goleador y ídolo de la hinchada, símbolo del gol verdolaga en los años 90.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="tag-wrap"></div><div class="card-body"><div class="tag">Delantero · Talento de exportación</div><h5 class="card-title">Faustino Asprilla</h5><p class="card-text">Habilidad y desequilibrio. Brilló en Nacional a comienzos de los 90 antes de dar el salto al Parma de Italia.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Arquero · Libertadores 2016</div><h5 class="card-title">Franco Armani</h5><p class="card-text">Seguridad bajo los tres palos en la Libertadores de 2016, la segunda copa del club.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Defensa · Capitán 2016</div><h5 class="card-title">Alexis Henríquez</h5><p class="card-text">Líder de la defensa campeona de América en 2016, con gran jerarquía y temple.</p></div></div></div>
+   <div class="col-md-6 col-lg-4"><div class="card card-j"><div class="card-body"><div class="tag">Delantero · Libertadores 2016</div><h5 class="card-title">Miguel Ángel Borja</h5><p class="card-text">Goleador del equipo de 2016, con gol y presencia en el área en la gran campaña continental.</p></div></div></div>
+  </div>
+  <div class="card card-j mt-4"><div class="card-body"><div class="tag">Los técnicos</div><h5 class="card-title">Pacho Maturana, Reinaldo Rueda y Juan Carlos Osorio</h5><p class="card-text mb-0">Maturana dirigió a Nacional en la Libertadores de 1989. Rueda y Osorio son los entrenadores con más títulos en el club: seis cada uno.</p></div></div>
+ </section>
+
+ <section class="mb-5">
+  <h2 class="titulo mb-4">¿Por qué es el mejor equipo del país?</h2>
+  <div class="row g-4">
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>El que más ha ganado</h5><p class="mb-0">Con 37 títulos oficiales y 18 ligas, ningún equipo colombiano tiene tantas estrellas. Millonarios, el segundo, tiene 22 títulos.</p></div></div>
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>Campeón de América</h5><p class="mb-0">Fue el primer equipo colombiano en ganar la Libertadores y es el único del país con dos copas.</p></div></div>
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>Rey de Copas</h5><p class="mb-0">Es el equipo más laureado de la Copa Colombia, con 8 títulos, y también gana Superligas e internacionales.</p></div></div>
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>Cantera y talento</h5><p class="mb-0">De sus canteras han salido futbolistas que dieron el salto a Europa y a selecciones, y su hinchada llena el Atanasio Girardot.</p></div></div>
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>Constancia</h5><p class="mb-0">Ha ganado títulos en todas las décadas desde los años 50, con ligas en los años 70, 90, 2000, 2010 y 2020.</p></div></div>
+   <div class="col-md-6 col-lg-4"><div class="razon"><h5>Una hinchada enorme</h5><p class="mb-0">El Verde de la Montaña tiene seguidores por todo el país y el mundo. Su identidad paisa es única.</p></div></div>
+  </div>
+ </section>
+
+ <section class="mb-4">
+  <div class="contra p-4">
+   <h4 style="color:var(--oro)">Para ser justos</h4>
+   <p class="mb-0">Esta es la mirada de un hincha. Los rivales dicen que Nacional también pierde finales (Junior le ganó la final de la Liga 2026) y que en el continente aún le faltan más Libertadores que a los gigantes de Argentina, Brasil o Uruguay. Aun así, en Colombia nadie tiene su palmarés.</p>
+  </div>
+ </section>
+
+</main>
+
+<div class="rayas"></div>
+<footer class="text-center py-4">
+ <b style="color:var(--oro)">¡VAMOS VERDOLAGA!</b><br><small>Página hecha por un aficionado · Datos: ESPN y Win Sports</small>
+</footer>
+
+</body>
+</html>
